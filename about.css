@@ -1,0 +1,53 @@
+.about-us {
+    margin-block: 50px;
+    padding: 0 5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-text h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.why-choose {
+    margin-block: 50px;
+    padding: 0 5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.why-choose-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.why-choose-text p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 980px) {
+    .why-choose-image img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .about-image img{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .reservation-btn{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}

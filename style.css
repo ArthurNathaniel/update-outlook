@@ -1,0 +1,367 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color: #222;
+    padding: 0 5%;
+    font-weight: 400;
+
+}
+
+* {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.room-booking {
+    padding: 15px 5px;
+    background-color: #8D7B68;
+    margin-top: 24px;
+    width: 50%;
+    border-radius: 5px;
+}
+.room-booking a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.d-flex {
+    background-color: #8D7B68;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.d-flex a{
+    color: #fff;
+    text-decoration: none;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    padding: 0 5%;
+    color:#fff;
+}
+
+.hero-text h5 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-text h3 {
+    font-size: 45px;
+}
+
+.hero-text p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.home-book {
+    margin: 0 15%;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    padding-block: 50px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    z-index: 90;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 99;
+}
+
+.home-booking-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #8D7B68;
+    height: 80%;
+    margin-top: 24px;
+}
+
+.home-booking-btn a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.choose-a-room {
+    padding: 0 5%;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.choose h3 {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 40px;
+}
+
+.choose-text {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.home-our-services {
+    margin-top: 50px;
+    padding: 0 5%;
+}
+
+.home-our-services h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.home-our-services p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.home-our-service-box {
+    padding: 0 5%;
+    margin-bottom: 50px;
+}
+
+.service-box {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #eee;
+}
+
+.service-box h4 {
+    text-transform: uppercase;
+}
+
+.service-box p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+.service-box:hover {
+    background-color: #8D7B68;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 0px;
+}
+
+.reservation-home {
+    /* height: 30vh; */
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+}
+
+.reservation-home p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 70%;
+}
+
+.reservation-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    background-color: #8D7B68;
+    height: 80%;
+    margin-top: 24px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.reservation-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.our-facilities {
+    padding: 0 5%;
+    margin-block: 50px;
+}
+
+.third img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.home-facilities-heading h3 {
+    font-size: 40px;
+}
+
+.home-facilities-heading p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    padding: 0 5%;
+    border: 2px solid;
+    margin-top: 50px;
+    background-color: #222;
+    color: #fff;
+}
+.footer p{
+    font-family: 'Poppins', sans-serif; 
+}
+/* .footer ul{
+    margin-top: 20px;
+} */
+.footer li a {
+    text-decoration: none;
+    color: #eee;
+    line-height: 40px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer li a:hover {
+    color: #8D7B68;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0 10%;
+    margin-top: 100px;
+  }
+  
+  .grid-item {
+    width: 100%;
+    height: 35vh;
+  }
+  
+  .grid-container- {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 90%;
+    margin: auto;
+  }
+  
+.photo-gallery{
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+body{
+    overflow-x: hidden;
+}
+.home-book{
+    z-index: 200;
+}
+.no-gutters {
+margin-right: 0;
+margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+padding-right: 0;
+padding-left: 0;
+}
+.mySwiper10{
+z-index: 100;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* padding: 30px; */
+  padding-left: 13%;
+  position:static;
+}
+
+.hello {
+  background-color: #eee;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.d-flex a {
+text-decoration: none;
+list-style: none;
+color: #fff;
+}
+
+.d-flex {
+background-color: #8D7B68;
+border-radius: 5px;
+padding: 10px 15px;
+}
+p{
+font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 40%;
+
+    }
+    .reservation-btn{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .home-book{
+        margin-top: 50px;
+    }
+    .hero-text{
+       display: none;
+}
+
+}

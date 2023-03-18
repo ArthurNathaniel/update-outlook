@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlook Hotel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Customer CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="room.css">
+</head>
+
+<body>
+    <div id="hero-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://placehold.jp/250x70.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ROOM TYPES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="single-standard-room.html">SINGLE STANDARD ROOM</a>
+                                </li>
+                                <li><a class="dropdown-item" href="large-superior-room.html">LARGE SUPERIOR ROOM</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                FACILITIES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="bar-and-resturant.html">BAR & RESTAURANT</a></li>
+                                <li><a class="dropdown-item" href="modern-facilities.html">MODERN FACILITIES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a href="reservation.html">
+                            RESERVATION
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/bg.jpg" alt="">
+                <div class="hero-text">
+                    <h3>
+                        SINGLE<br>
+                        STANDARD ROOM
+                    </h3>
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="single-standard-room row gy-5">
+        <div class="col-12 col-md-5 single-standard-room-text">
+            <h6>OUTLOOK HOTEL</h6>
+            <div class="star">
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+                <span class="material-symbols-outlined">
+                    star
+                </span>
+            </div>
+            <h4>SINGLE STANDARD  ROOM</h4>
+            <p>
+                The Single Standard  Room at Outlook Hotel provides a comfortable and affordable stay for solo travelers.
+                 Our affordably priced rooms ensure a peaceful and relaxing stay in
+                Akim Oda.
+            </p>
+           
+            <h5>AMENITIES</h5>
+            <ol class="list-group">
+                <li class="list-group-item">Single Bed</li>
+                <li class="list-group-item">Air Conditioning</li>
+                <li class="list-group-item">Private Bathroom</li>
+                <li class="list-group-item">Writing Desk</li>
+                <li class="list-group-item">Telephone</li>
+                <li class="list-group-item">Television</li>
+                <li class="list-group-item">Daily Housekeeping</li>
+              </ol>
+              
+              <div class="room-booking">
+                <a href="reservation.html">
+                    MAKE A RESERVATION
+                </a>
+              </div>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="swiper mySwiper n">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/IMG_5401.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/IMG_5414.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/IMG_5410.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row gy-5 footer">
+            <div class="col-12 col-md-3 ">
+                <img src="https://placehold.jp/250x70.png" alt="">
+                <div>
+                    Follow us on social media:
+                    <br>
+                    <br>
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-instagram-alt' ></i>
+                  </div>
+                  
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>ABOUT OUTLOOK HOTEL</h4>
+                <p>
+                    Experience the beauty and luxury of Outlook Hotel! Book a room now and discover our breathtaking
+                    views, luxurious amenities, and personalized service that will make your stay unforgettable.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>OUR ROOM & FACILITIES</h4>
+                <li><a href="large-superior-room.html"> Large Superior Room</a></li>
+                <li><a href="single-standard-room.html"> Single Standard Room</a></li>
+                <li><a href="bar-and-resturant.html"> Bar & Restaurant</a></li>
+                <li><a href="modern-facilities.html"> Modern Facilities</a></li>
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>CONTACT US</h4>
+                <li> <img src="images/phone-forwarded.svg" alt=""> <a href="tel:+233547127778">+233 547 127 778</a></li>
+                <li> <img src="images/phone-forwarded.svg" alt=""> <a href="tel:+233202123090">+233 202 123 090</a></li>
+                <li><img src="images/mail.svg" alt=""><a href="mailto: info@outlookhotelghana.com">
+                        info@outlookhotelghana.com</a></li>
+                <li><a href="https://goo.gl/maps/7sVDfaMXH88hRPmL6"> <img src="images/map-pin.svg" alt=""> Main Street Akim Oda</a></li>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+        var paginationBullets = document.querySelectorAll('.swiper-pagination-bullet');
+
+for (var i = 0; i < paginationBullets.length; i++) {
+    paginationBullets[i].style.backgroundColor = '#8D7B68';
+}
+    </script>
+    <!-- Swiper JS -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.bar-and-restaurant{
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.bar-and-restaurant p{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+@media screen and (max-width: 980px) {
+   
+    .reservation-btn{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}

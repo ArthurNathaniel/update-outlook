@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlook Hotel</title>
+     <!-- Animate on Scroll -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Customer CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <div id="hero-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://placehold.jp/250x70.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ROOM TYPES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="single-standard-room.html">SINGLE STANDARD ROOM</a>
+                                </li>
+                                <li><a class="dropdown-item" href="large-superior-room.html">LARGE SUPERIOR ROOM</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                FACILITIES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="bar-and-resturant.html">BAR & RESTAURANT</a></li>
+                                <li><a class="dropdown-item" href="modern-facilities.html">MODERN FACILITIES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a href="reservation.html">
+                            RESERVATION
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/bg.jpg" alt="">
+                <div class="hero-text">
+                    <h3>
+                        ABOUT <br>
+                        OUTLOOK HOTEL
+                    </h3>
+
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="row about-us" data-aos="zoom-out">
+        <div class="col-12 col-md-6 about-text">
+            <h3>ABOUT OUTLOOK HOTEL</h3>
+            <p>
+                Welcome to the Outlook Hotel, an oasis of tranquility nestled in the peaceful surroundings of Akim
+                Oda in the Eastern part of Ghana. Our hotel is the perfect destination for travelers seeking a
+                comfortable and relaxing stay.
+                <br>
+                <br>
+                At the Outlook Hotel, we pride ourselves on providing exceptional service and top-notch amenities.
+                Our rooms are tastefully furnished and equipped with everything you need for a comfortable stay,
+                including air conditioning, flat-screen TVs, and free Wi-Fi. We offer a range of room types to suit
+                all budgets and preferences, from single standard rooms to large Superior rooms.
+                <br>
+                <br>
+                Our hotel is conveniently located close to many local attractions, including the
+                the Boti Falls, and the Owabi Wildlife Sanctuary. Our friendly staff can help you with information
+                on these and other nearby attractions, as well as assist with transportation arrangements.
+                <br>
+                <br>
+                Thank you for considering the Outlook Hotel for your next stay in Akim Oda. We look forward to
+                welcoming you and making your stay with us a memorable one
+            </p>
+        </div>
+        <div class="col-12 col-md-6 about-image" >
+            <img src="images/about-2.png" alt="">
+        </div>
+    </div>
+    <div class="reservation-home" data-aos="zoom-in">
+        <h3>Book Your Stay at Outlook Hotel Today!</h3>
+        <p>
+            From our breathtaking views to our exquisite dining options and luxurious amenities, we're confident
+            that
+            you'll have an unforgettable stay with us. Book now and let us help you create memories that will last a
+            lifetime.
+        </p>
+        <div class="reservation-btn">
+            <a href="reservation.html">
+                RESERVATION
+            </a>
+        </div>
+    </div>
+    <div class="row why-choose">
+        <div class="col-12 col-md-6 why-choose-image "  data-aos="fade-right">
+            <img src="images/about-2.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 why-choose-text" data-aos="fade-left">
+            <h3>WHY CHOOSE OUTLOOK HOTEL</h3>
+            <p>
+                The Outlook Hotel offers exceptional service and top-notch amenities in a peaceful and serene
+                environment in Akim Oda, making it a perfect destination for travelers seeking a comfortable and
+                relaxing stay. The hotel's tastefully furnished rooms, equipped with modern amenities such as air
+                conditioning, flat-screen TVs, and free Wi-Fi, ensure that guests have everything they need for a
+                comfortable stay. Additionally, the hotel's on-site restaurant serving up delicious local and
+                international cuisine and bar provide a convenient dining and relaxation option for guests.
+                <br>
+                <br>
+                The Outlook Hotel also offers a range of services and facilities. The friendly and helpful staff are
+                always on hand to provide information on local attractions and transportation arrangements to ensure
+                that guests make the most of their stay in Akim Oda. Overall, the Outlook Hotel offers a peaceful
+                and comfortable stay with top-notch amenities and services, making it a great choice for visitors to
+                the Eastern part of Ghana.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row gy-5 footer">
+            <div class="col-12 col-md-3 ">
+                <img src="https://placehold.jp/250x70.png" alt="">
+                <div>
+                    Follow us on social media:
+                    <br>
+                    <br>
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>ABOUT OUTLOOK HOTEL</h4>
+                <p>
+                    Experience the beauty and luxury of Outlook Hotel! Book a room now and discover our breathtaking
+                    views, luxurious amenities, and personalized service that will make your stay unforgettable.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>OUR ROOM & FACILITIES</h4>
+                <li><a href="large-superior-room.html"> Large Superior Room</a></li>
+                <li><a href="single-standard-room.html"> Single Standard Room</a></li>
+                <li><a href="bar-and-resturant.html"> Bar & Restaurant</a></li>
+                <li><a href="modern-facilities.html"> Modern Facilities</a></li>
+            </div>
+
+            <div class="col-12 col-md-3 ">
+                <h4>CONTACT US</h4>
+                <li> <img src="images/phone-forwarded.svg" alt=""> <a href="tel:+233547127778">+233 547 127 778</a></li>
+                <li> <img src="images/phone-forwarded.svg" alt=""> <a href="tel:+233202123090">+233 202 123 090</a></li>
+                <li><img src="images/mail.svg" alt=""><a href="mailto: info@outlookhotelghana.com">
+                        info@outlookhotelghana.com</a></li>
+                <li><a href="https://goo.gl/maps/7sVDfaMXH88hRPmL6"> <img src="images/map-pin.svg" alt=""> Main Street
+                        Akim Oda</a></li>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <!-- Swiper JS -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.contact-heading{
+    margin-top: 50px;
+    padding: 0 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.contact-map iframe{
+    width: 100%;
+ 
+}
+
+.contact-btn {
+    background: #8D7B68;
+   width: 50%;
+   padding: 15px 20px;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   border-radius: 8px;
+  }
+  .contact-btn a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  

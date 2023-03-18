@@ -1,0 +1,32 @@
+.single-standard-room {
+    margin-block: 50px;
+    padding: 0 5%;
+}
+
+.star span {
+    color: #8D7B68;
+}
+
+.single-standard-room-text p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-group {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.room-booking {
+    padding: 15px 5px;
+    background-color: #8D7B68;
+    margin-top: 24px;
+    width: 50%;
+    border-radius: 5px;
+}
+.room-booking a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
