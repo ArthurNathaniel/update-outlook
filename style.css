@@ -252,6 +252,7 @@ body {
 }
 .footer p{
     font-family: 'Poppins', sans-serif; 
+    padding-top: 10px;
 }
 /* .footer ul{
     margin-top: 20px;
